@@ -18,6 +18,9 @@
             />    
             <div class="logo-name">KhaslanaStore</div>
         </div>
+        <div class="navbar-toggle">
+            <img src="./../../assets/hamburger.png" alt="menu">
+        </div>
         <div class="navbar-right">
             <ul>
                 <li><a href="./index.html" class="navbar-active">Beranda</a></li>
@@ -135,17 +138,45 @@
     </section>
     <!-- umkm end -->
 
-    <!-- <script src="./../scripts/index.js" defer></script> -->
-     <script>
-        const navbar = document.querySelector(".navbar");
+    <!-- cta start -->
+     <section class="cta-section">
+        <div class="cta-card">
+            <h2>
+                Your growth journey <span>starts here</span>.
+            </h2>
+            <p>
+                Join the digital elite and claim your position in the future of
+                Indonesian commerce. Consultation is free, but space is limited.
+            </p>
+            <a href="#" class="btn-primary cta-btn">GokGok!</a>
+        </div>
+    </section>
+    <!-- cta end -->
 
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 40) {
-                navbar.classList.add("navbar-scrolled");
-            } else {
-                navbar.classList.remove("navbar-scrolled");
-            }
-        });
-     </script>
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer-left">
+            <p>&copy;2026 Khaslana</p>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <a href="#">
+                    <li>Tentang Kami</li>
+                </a>
+                <a href="#">
+                    <li>Kebijakan Privasi</li>
+                </a>
+                <a href="#">
+                    <li>Bantuan</li>
+                </a>
+                <a href="#">
+                    <li>Kontak</li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="./../scripts/index.js" defer></script>
 </body>
 </html>
