@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -355,7 +356,7 @@ html, body {
     width: 100%;
     min-height: 130vh;
     height: auto;
-    padding: 0px 55px 55px;
+    padding: 20px 55px;
     gap: 30px;
     overflow: hidden;
 }
@@ -1069,7 +1070,7 @@ footer a:hover {
     }
 
     .community-section {
-        padding: 20px 30px;;
+        padding: 20px 30px;
     }
 
     .tracking-section {
