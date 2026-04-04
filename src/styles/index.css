@@ -345,7 +345,7 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 120vh;
-    padding: 20px 55px;
+    padding: 0px 55px 55px;
     gap: 30px;
     overflow: hidden;
 }
@@ -368,16 +368,22 @@ body {
     color: #99FF33;
 }
 
+.community-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .community-right {
     display: flex;
-    flex: 1;
+    flex: 2.5;
     position: relative;
     z-index: 10;
 }
 
 .community-img {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
 }
 
