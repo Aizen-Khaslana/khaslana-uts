@@ -21,18 +21,18 @@ jobs:
           # copy scripts
           mkdir -p deploy/src
           mkdir -p deploy/src/scripts
-          cp src/scripts/* deploy/src/scripts/
+          cp -r src/scripts/. deploy/src/scripts/
           
           # copy styles
           mkdir -p deploy/src/styles
-          cp src/styles/* deploy/src/styles/
+          cp -r src/styles/. deploy/src/styles/
           
           # copy index.html
           cp index.html deploy/index.html
 
           # copy all pages
           mkdir -p deploy/src/pages
-          cp src/pages/* deploy/src/pages/
+          cp -r src/pages/. deploy/src/pages/
       
       # - name: Adjust relative paths in HTML files
       #   run: |
