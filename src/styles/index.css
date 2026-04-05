@@ -104,7 +104,7 @@ a {
 }
 
 .navbar-right li a:hover {
-    color: white;
+    color: #99FF33;
 }
 
 .navbar-right li a:hover::after {
@@ -157,7 +157,7 @@ a {
 }
 
 .navbar-middle li a:hover {
-    color: white;
+    color: #99FF33;
 }
 
 .navbar-middle li a:hover::after {
@@ -165,7 +165,7 @@ a {
 }
 
 .navbar-middle li a.navbar-active {
-    color: white;
+    color: #99FF33;
 }
 
 .navbar-middle li a.navbar-active::after {
@@ -944,6 +944,16 @@ footer a:hover {
         left: -200px;
         z-index: 1;
         transform: translateY(-50%);
+    }
+
+    .navbar-middle ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        gap: 25px;
+        font-size: 16px;
+        font-weight: 500;
     }
 }
 
